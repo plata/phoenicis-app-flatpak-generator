@@ -41,7 +41,7 @@ with open(script_json_path) as json_file:
 
 print("Generate flatpak for \"" + app_name + "\" (" + script_id + ")")
 
-app_name_clean = re.sub('[^a-zA-Z0-9_.]', '', app_name)
+app_name_clean = re.sub('[^a-zA-Z0-9 ]', '', app_name)
 app_id_parts = app_id.split('.')
 app_flatpak_id = app_id_parts[-1]
 app_category = app_id_parts[1].capitalize()
