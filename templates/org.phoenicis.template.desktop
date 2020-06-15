@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=${APP_NAME} (Phoenicis)
+Comment=Phoenicis flatpak app for ${APP_NAME}
+Exec=run-app %U
+StartupNotify=true
+Terminal=false
+Type=Application
+MimeType=application/x-ms-dos-executable;application/x-msi;application/x-ms-shortcut;
+Icon=org.phoenicis.${APP_FLATPAK_ID}
+Categories=${APP_CATEGORY}
+Keywords=Phoenicis;PlayOnLinux;Wine;
+
